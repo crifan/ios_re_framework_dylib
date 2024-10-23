@@ -1,0 +1,124 @@
+{
+  "title": "iOS逆向：Framework动态库",
+  "description": "介绍iOS逆向期间常涉及到的Framework动态库dylib相关内容。先对于Framework动态库概述；介绍常见Framework；介绍dyld_shared_cache即dyld的shared cache，常见文件是dyld_shared_cache_arm64；接着介绍提取工具和相关的代码、工具和涉及的地方；提取工具主要有DyldExtractor、dyld_decache、dyld_cache_extract、dsc_extractor、dyld-cache-dump。尤其是可用和好用的DyldExtractor，支持提取单个库和全部的库；以及一些经验心得；其他工具有update_dyld_shared_cache。",
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "ios_re_framework_dylib",
+          "user": "crifan",
+          "type": "star",
+          "count": true,
+          "size": "small"
+        },
+        {
+          "user": "crifan",
+          "type": "follow",
+          "width": "120",
+          "count": false,
+          "size": "small"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.org/books/ios_re_framework_dylib/website/"
+    },
+    "toolbar-button": {
+      "url": "https://book.crifan.org/books/ios_re_framework_dylib/pdf/ios_re_framework_dylib.pdf",
+      "icon": "fa-file-pdf-o",
+      "label": "下载PDF"
+    },
+    "theme-default": {
+      "showLevel": true
+    },
+    "disqus": {
+      "shortName": "crifan"
+    },
+    "prism": {
+      "css": [
+        "prism-themes/themes/prism-atom-dark.css"
+      ]
+    },
+    "sharing": {
+      "douban": false,
+      "facebook": true,
+      "google": false,
+      "hatenaBookmark": false,
+      "instapaper": false,
+      "line": false,
+      "linkedin": false,
+      "messenger": false,
+      "pocket": false,
+      "qq": true,
+      "qzone": false,
+      "stumbleupon": false,
+      "twitter": true,
+      "viber": false,
+      "vk": false,
+      "weibo": true,
+      "whatsapp": false,
+      "all": [
+        "douban",
+        "facebook",
+        "google",
+        "instapaper",
+        "line",
+        "linkedin",
+        "messenger",
+        "pocket",
+        "qq",
+        "qzone",
+        "stumbleupon",
+        "twitter",
+        "viber",
+        "vk",
+        "weibo",
+        "whatsapp"
+      ]
+    },
+    "tbfed-pagefooter": {
+      "copyright": "crifan.org，使用<a href='https://creativecommons.org/licenses/by/4.0/deed.zh'>署名4.0国际(CC BY 4.0)协议</a>发布",
+      "modify_label": "最后更新：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "donate": {
+      "wechat": "https://www.crifan.org/files/res/crifan_com/crifan_wechat_pay.jpg",
+      "alipay": "https://www.crifan.org/files/res/crifan_com/crifan_alipay_pay.jpg",
+      "title": "",
+      "button": "打赏",
+      "alipayText": "支付宝打赏给Crifan",
+      "wechatText": "微信打赏给Crifan"
+    }
+  },
+  "author": "Crifan Li <admin@crifan.com>",
+  "language": "zh-hans",
+  "root": "./src",
+  "links": {
+    "sidebar": {
+      "主页": "http://www.crifan.org"
+    }
+  },
+  "plugins": [
+    "theme-comscore",
+    "anchors",
+    "expandable-menu",
+    "-lunr",
+    "-search",
+    "search-plus",
+    "disqus",
+    "-highlight",
+    "prism",
+    "prism-themes",
+    "github-buttons",
+    "-splitter",
+    "splitter-nosessionbutcookie",
+    "-sharing",
+    "sharing-plus",
+    "tbfed-pagefooter",
+    "donate",
+    "sitemap-general",
+    "copy-code-button",
+    "blockquote-callout",
+    "toolbar-button"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "iOS逆向：Framework动态库",
+  "description": "介绍iOS逆向期间常涉及到的Framework动态库dylib相关内容。先对于Framework动态库概述；介绍常见Framework；介绍dyld_shared_cache即dyld的shared cache，常见文件是dyld_shared_cache_arm64；接着介绍提取工具和相关的代码、工具和涉及的地方；提取工具主要有DyldExtractor、dyld_decache、dyld_cache_extract、dsc_extractor、dyld-cache-dump。尤其是可用和好用的DyldExtractor，支持提取单个库和全部的库；以及一些经验心得；其他工具有update_dyld_shared_cache。",
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "ios_re_framework_dylib"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.org/books/ios_re_framework_dylib/website/"
+    },
+    "toolbar-button": {
+      "url": "https://book.crifan.org/books/ios_re_framework_dylib/pdf/ios_re_framework_dylib.pdf"
+    }
+  }
+}
